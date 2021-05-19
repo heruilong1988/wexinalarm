@@ -10,7 +10,7 @@ public class WeXinAlarm {
     public static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
 
     String corpId = "wwccf8717b9fed87b1";
-    String corpSecret = "SOO4aU8k9m_Xz3auXB7Ese1OFIj7yspVvuX3MlzIbqU";
+    String corpSecret = "";
 
     String getTokenUrl = String.format("https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=%s&corpsecret=%s",corpId,corpSecret);
     String sendMsgUrlPattern = "https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=%s";
